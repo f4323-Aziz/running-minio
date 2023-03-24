@@ -2,17 +2,10 @@
 
 Merhaba. 
 
-Benden yapılması talep edilenlerden;
+Bu repoda minio klasörü altında "docker-compose up" yapıldığında uygulama localhost:9000 üzerinden minio yayını, localhost:80 üzerinden frontend yayını yapmaktadır. 
 
-1- Backend ve frontend projelerine production'a uygun bir şekilde Dockerfile yazılması,
-  backend ve frontend klasörlerinin içerisinde
-2- Backend ve frontend için docker compose dosyasının yazılması,
-  b-f-together klasörünün içerisinde
-3 - Global bir nginx servisi için docker compose yazılması, 
-  nginx klasörü içerisinde yer almaktadır. 
+Bir kez docker-compose up komutunun ardından localhost:9000 den minio uygulamasına bağlantı ile BUCKET, ACCESS_KEY_ID, SECRET_ACCESS_KEY alınıp backend klasöründeki .env dosyasında veri girişi yapıldığında frontend üzerinden, localhost:80 den upload özelliği çalışmaktadır.  
 
-
-Uygulamanın fotoğraf yükleme özelliğinin çalıştığına dair final.png dosyasında görselini de paylaşıyorum. 
 
 İyi çalışmalar dilerim.
 
