@@ -80,7 +80,7 @@ services:
       - minio3
       - minio4
     env_file:
-      -  ../../local/backend/.env
+      -  ../backend/.env
 
 
 
